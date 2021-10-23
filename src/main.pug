@@ -1,0 +1,20 @@
+block variables
+
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        script(src="index.js")
+        title #{title}
+
+    body(class=pageClass)
+      //-подключаю верстку шапки
+      include ./blocks/commonblocks/header/header
+      .wrapper
+        .content-wrapper
+          block content
+      block script
+      //-подключаю верстку подвала
+      include ./blocks/commonblocks/footer/footer

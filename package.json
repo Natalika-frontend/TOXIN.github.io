@@ -1,0 +1,23 @@
+{
+    "name": "toxin",
+    "source": "src/index.html",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "normalize.css": "^8.0.1"
+    },
+    "devDependencies": {
+        "parcel": "latest",
+        "pug": "^3.0.2",
+        "sass": "^1.43.3"
+    },
+    "browserslist": "> 0.5%, last 2 versions, not dead",
+    "scripts": {
+        "start": "parcel src/index.pug --open -p 3000",
+        "build": "parcel build src/index.pug -d docs --public-url ./"
+    },
+    "keywords": [],
+    "author": "Natalya Romanova",
+    "license": "ISC"
+}
