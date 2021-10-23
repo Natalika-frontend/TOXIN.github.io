@@ -35,6 +35,38 @@ body {
     }
 }
 
+.control {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;
+}
+
+.control-btn {
+    min-width: 100px;
+    font-family: Montserrat;
+    appearance: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    &_come {
+        border-radius: 22px;
+        border-color: #BC9CFF;
+        color: #BC9CFF;
+        background-color: #ffffff;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+    }
+}
+
+//.control-btn:hover {
+//    background: #1d49aa;
+//}
+//.control-btn:focus {
+//    outline: none;
+//    box-shadow: 0 0 0 4px #cbd6ee;
+//}
 @font-face {
     font-family: Montserrat;
     src: url('./assets/fonts/Montserrat-Regular.ttf') format('ttf'), url('./assets/fonts/Montserrat-Regular.woff') format('woff'), url('./assets/fonts/Montserrat-Regular.svg') format('svg');
