@@ -14,25 +14,42 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 144rem;
+    max-width: 116rem;
     margin: 0 auto;
-    padding-left: 14rem;
-    padding-right: 14rem;
 }
 
-.nav {
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
     display: flex;
     align-items: center;
-    list-style: none;
-    padding-left: 0;
     font-size: 14px;
+    //margin-left: 28.43rem;
     &-item {
-        margin: 0 1.5rem;
+        margin: 0 1.1rem;
+        padding-left: 2rem;
     }
     &-link {
-        text-decoration: none;
         color: #1F2041BF;
     }
+}
+
+.arrow {
+    border-top: 2px solid;
+    border-color: #1F2041;
+    display: inline-flex;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-left: 2px solid;
+    transform: rotate( -135deg);
+    margin-left: 1rem;
+    margin-bottom: 0.27rem;
 }
 
 .control {
@@ -44,16 +61,26 @@ body {
 }
 
 .control-btn {
-    min-width: 100px;
+    margin-left: 2rem;
     font-family: Montserrat;
     appearance: none;
-    padding: 8px 16px;
+    padding: 1rem 2rem;
     cursor: pointer;
+    border-radius: 2.2rem;
     &_come {
-        border-radius: 22px;
+        min-width: 8.7rem;
         border-color: #BC9CFF;
         color: #BC9CFF;
         background-color: #ffffff;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+    }
+    &_register {
+        min-width: 15.7rem;
+        border: none;
+        color: #ffffff;
+        background-color: #BC9CFF;
         font-size: 12px;
         line-height: 15px;
         text-transform: uppercase;
@@ -67,9 +94,3 @@ body {
 //    outline: none;
 //    box-shadow: 0 0 0 4px #cbd6ee;
 //}
-@font-face {
-    font-family: Montserrat;
-    src: url('./assets/fonts/Montserrat-Regular.ttf') format('ttf'), url('./assets/fonts/Montserrat-Regular.woff') format('woff'), url('./assets/fonts/Montserrat-Regular.svg') format('svg');
-    font-weight: 400;
-    font-style: normal;
-}
