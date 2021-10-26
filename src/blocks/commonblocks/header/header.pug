@@ -1,22 +1,22 @@
-header
-  .header
-    a(href="#")
-      img(src="./blocks/commonblocks/header/logo.jpg", alt="Logo")
-    ul.menu
-      li.menu-item
-        a.menu-link(href="#") О нас
-      li.menu-item
-        a.menu-link(href="#") Услуги
-          .arrow
-      li.menu-item
-        a.menu-link(href="#") Вакансии
-      li.menu-item
-        a.menu-link(href="#") Новости
-      li.menu-item
-        a.menu-link(href="#") Соглашения
-          .arrow
-    ul.control
-      li.control-item
-        button.control-btn.control-btn_come Войти
-      li.control-item
-        button.control-btn.control-btn_register Зарегистрироваться
+header.header
+  .container
+    .header__inner
+      a.logo(href="#")
+        img(src="./blocks/commonblocks/header/logo.jpg", alt="Logo")
+      nav.menu
+        ul.menu__list
+          li.menu__list-item
+            a.menu__list-link(href="#") О нас
+          li.menu__list-item
+            a.menu__list-link(href="#") Услуги
+            .arrow
+          li.menu__list-item
+            a.menu__list-link(href="#") Вакансии
+          li.menu__list-item
+            a.menu__list-link(href="#") Новости
+          li.menu__list-item
+            a.menu__list-link(href="#") Соглашения
+            .arrow
+      .header__btn
+        button.header__btn-come Войти
+        button.header__btn-register Зарегистрироваться

@@ -1,89 +1,70 @@
-html {
-    font-size: 10px;
-}
-
 body {
     background-color: #ffffff;
     color: #1F2041BF;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     line-height: 17px;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 116rem;
-    margin: 0 auto;
-}
-
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+    }
 }
 
 .menu {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    //margin-left: 28.43rem;
-    &-item {
-        margin: 0 1.1rem;
-        padding-left: 2rem;
+    &__list {
+        display: flex;
     }
-    &-link {
-        color: #1F2041BF;
+    &__list-item {
+        padding-left: 20px;
     }
+}
+
+.logo {
+    margin-right: 245px;
 }
 
 .arrow {
     border-top: 2px solid;
-    border-color: #1F2041;
+    border-color: #8F8FA0;
     display: inline-flex;
-    width: 0.6rem;
-    height: 0.6rem;
+    width: 8px;
+    height: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-left: 2px solid;
     transform: rotate( -135deg);
-    margin-left: 1rem;
-    margin-bottom: 0.27rem;
+    margin-bottom: 2.7px;
 }
 
-.control {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    padding-left: 0;
-    font-size: 14px;
-}
-
-.control-btn {
-    margin-left: 2rem;
-    font-family: Montserrat;
-    appearance: none;
-    padding: 1rem 2rem;
-    cursor: pointer;
-    border-radius: 2.2rem;
-    &_come {
-        min-width: 8.7rem;
+.header__btn {
+    &-come {
+        border-bottom-style: solid;
+        border-radius: 22px;
+        min-width: 87px;
         border-color: #BC9CFF;
         color: #BC9CFF;
         background-color: #ffffff;
         font-size: 12px;
         line-height: 15px;
         text-transform: uppercase;
+        padding: 7px 20px 7px 20px;
     }
-    &_register {
-        min-width: 15.7rem;
+    &-register {
+        margin-left: 20px;
+        min-width: 157px;
         border: none;
+        border-radius: 22px;
         color: #ffffff;
         background-color: #BC9CFF;
         font-size: 12px;
         line-height: 15px;
         text-transform: uppercase;
+        padding: 7px 20px 7px 20px;
     }
 }
 

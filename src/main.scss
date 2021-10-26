@@ -1,6 +1,7 @@
 // Здесь я подключаю все стили от компонентов
 @import '~normalize.css';
 @import './blocks/commonblocks/header/header.scss';
+@import './assets/libs/global';
 @font-face {
     font-family: Montserrat;
     src: url('./assets/fonts/Montserrat-Regular.ttf') format('ttf'), url('./assets/fonts/Montserrat-Regular.woff') format('woff'), url('./assets/fonts/Montserrat-Regular.svg') format('svg');
