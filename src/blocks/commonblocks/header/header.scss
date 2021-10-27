@@ -22,13 +22,13 @@ body {
         padding-left: 20px;
     }
     &__list-link {
-        color: $font-color;
+        color: $darc_shade_50;
     }
 }
 
 .arrow {
     border-top: 2px solid;
-    border-color: #8F8FA0;
+    border-color: $darc_shade_25;
     display: inline-flex;
     width: 8px;
     height: 8px;
@@ -45,8 +45,8 @@ body {
         border-bottom-style: solid;
         border-radius: 22px;
         min-width: 87px;
-        border-color: #BC9CFF;
-        color: #BC9CFF;
+        border-color: $purpl;
+        color: $purpl;
         background-color: #ffffff;
         font-size: 12px;
         line-height: 15px;
@@ -59,7 +59,7 @@ body {
         border: none;
         border-radius: 22px;
         color: #ffffff;
-        background-color: #BC9CFF;
+        background-color: $purpl;
         font-size: 12px;
         line-height: 15px;
         text-transform: uppercase;

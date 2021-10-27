@@ -9,7 +9,7 @@
     &__info {
         max-width: 260px;
         line-height: 24px;
-        color: rgba(31, 32, 65, 0.75);
+        color: $darc_shade_75;
     }
     &__menu {
         margin: 0 auto;
@@ -22,7 +22,7 @@
         line-height: 15px;
         @extend %bold;
         text-transform: uppercase;
-        color: #1F2041;
+        color: $darc_shade_100;
     }
     &__about {
         margin: 0 auto;
@@ -32,7 +32,7 @@
     }
     &__subscription {
         max-width: 260px;
-        color: rgba(31, 32, 65, 0.75);
+        color: $darc_shade_75;
         line-height: 24px;
     }
     &__menu-item_text {
@@ -45,7 +45,7 @@
         padding: 26px 1px 26px;
     }
     &__input {
-        border: 1px solid rgba(31, 32, 65, 0.25);
+        border: 1px solid $darc_shade_25;
         border-radius: 4px;
         width: 260px;
         height: 44px;
@@ -62,7 +62,7 @@
 
 .material-icons {
     font-size: 24px;
-    color: #BC9CFF;
+    color: $purpl;
 }
 
 input {
@@ -82,12 +82,12 @@ span {
 }
 
 ::-webkit-input-placeholder {
-    color: rgba(31, 32, 65, 0.25);
+    color: $darc_shade_25;
     padding-left: 15px;
 }
 
 ::-moz-placeholder {
-    color: rgba(31, 32, 65, 0.25);
+    color: $darc_shade_25;
     padding-left: 15px;
 }
 
@@ -95,7 +95,7 @@ span {
 /* Firefox 19+ */
 
 :-moz-placeholder {
-    color: rgba(31, 32, 65, 0.25);
+    color: $darc_shade_25;
     padding-left: 15px;
 }
 
@@ -103,6 +103,6 @@ span {
 /* Firefox 18- */
 
 :-ms-input-placeholder {
-    color: rgba(31, 32, 65, 0.25);
+    color: $darc_shade_25;
     padding-left: 15px;
 }
