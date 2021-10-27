@@ -1,6 +1,5 @@
 body {
     background-color: #ffffff;
-    color: #1F2041BF;
 }
 
 .header {
@@ -8,7 +7,6 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 70px;
     }
 }
 
@@ -22,6 +20,9 @@ body {
     }
     &__list-item {
         padding-left: 20px;
+    }
+    &__list-link {
+        color: $font-color;
     }
 }
 

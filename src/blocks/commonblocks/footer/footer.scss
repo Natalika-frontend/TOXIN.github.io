@@ -1,0 +1,108 @@
+.footer {
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        padding: 104px 0 100px;
+        margin: 0 auto;
+    }
+    &__info {
+        max-width: 260px;
+        line-height: 24px;
+        color: rgba(31, 32, 65, 0.75);
+    }
+    &__menu {
+        margin: 0 auto;
+    }
+    &__menu-item {
+        padding-bottom: 20px;
+    }
+    &__menu-item_title {
+        font-size: 12px;
+        line-height: 15px;
+        @extend %bold;
+        text-transform: uppercase;
+        color: #1F2041;
+    }
+    &__about {
+        margin: 0 auto;
+    }
+    &__support {
+        margin: 0 auto;
+    }
+    &__subscription {
+        max-width: 260px;
+        color: rgba(31, 32, 65, 0.75);
+        line-height: 24px;
+    }
+    &__menu-item_text {
+        padding: 20px 0 20px;
+    }
+    &__copyright {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        padding: 26px 1px 26px;
+    }
+    &__input {
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        border-radius: 4px;
+        width: 260px;
+        height: 44px;
+    }
+    &__social {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+    &__social-item {
+        margin-left: 20px;
+    }
+}
+
+.material-icons {
+    font-size: 24px;
+    color: #BC9CFF;
+}
+
+input {
+    width: 90%;
+}
+
+.footer__input-groupe {
+    position: relative;
+}
+
+span {
+    position: absolute;
+    left: 225px;
+    top: 10px;
+    background: #fff;
+    border: none;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(31, 32, 65, 0.25);
+    padding-left: 15px;
+}
+
+::-moz-placeholder {
+    color: rgba(31, 32, 65, 0.25);
+    padding-left: 15px;
+}
+
+
+/* Firefox 19+ */
+
+:-moz-placeholder {
+    color: rgba(31, 32, 65, 0.25);
+    padding-left: 15px;
+}
+
+
+/* Firefox 18- */
+
+:-ms-input-placeholder {
+    color: rgba(31, 32, 65, 0.25);
+    padding-left: 15px;
+}

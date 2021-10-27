@@ -194,7 +194,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"~normalize.css":"normalize.css","./assets\\fonts\\Montserrat-Regular.ttf":[["Montserrat-Regular.8fe9dd7a.ttf","assets/fonts/Montserrat-Regular.ttf"],"assets/fonts/Montserrat-Regular.ttf"],"./assets\\fonts\\Montserrat-Regular.woff":[["Montserrat-Regular.6b3bd861.woff","assets/fonts/Montserrat-Regular.woff"],"assets/fonts/Montserrat-Regular.woff"],"./assets\\fonts\\Montserrat-Regular.svg":[["Montserrat-Regular.e7c97de5.svg","assets/fonts/Montserrat-Regular.svg"],"assets/fonts/Montserrat-Regular.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"main.js":[function(require,module,exports) {
+},{"~normalize.css":"normalize.css","./assets\\fonts\\Montserrat-Regular.ttf":[["Montserrat-Regular.8fe9dd7a.ttf","assets/fonts/Montserrat-Regular.ttf"],"assets/fonts/Montserrat-Regular.ttf"],"./assets\\fonts\\Montserrat-Regular.woff":[["Montserrat-Regular.6b3bd861.woff","assets/fonts/Montserrat-Regular.woff"],"assets/fonts/Montserrat-Regular.woff"],"./assets\\fonts\\Montserrat-Regular.svg":[["Montserrat-Regular.e7c97de5.svg","assets/fonts/Montserrat-Regular.svg"],"assets/fonts/Montserrat-Regular.svg"],"./assets\\fonts\\Montserrat-Bold.ttf":[["Montserrat-Bold.a1c6c522.ttf","assets/fonts/Montserrat-Bold.ttf"],"assets/fonts/Montserrat-Bold.ttf"],"./assets\\fonts\\Montserrat-Bold.woff":[["Montserrat-Bold.91aa0c63.woff","assets/fonts/Montserrat-Bold.woff"],"assets/fonts/Montserrat-Bold.woff"],"./assets\\fonts\\Montserrat-Bold.svg":[["Montserrat-Bold.75568a25.svg","assets/fonts/Montserrat-Bold.svg"],"assets/fonts/Montserrat-Bold.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"main.js":[function(require,module,exports) {
 "use strict";
 
 require("./main.scss");
@@ -236,7 +236,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54844" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60182" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
