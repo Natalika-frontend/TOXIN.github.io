@@ -1,9 +1,6 @@
 body {
     background-color: #ffffff;
     color: #1F2041BF;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 17px;
 }
 
 .header {
@@ -15,6 +12,10 @@ body {
     }
 }
 
+.logo {
+    margin-right: 251px;
+}
+
 .menu {
     &__list {
         display: flex;
@@ -22,10 +23,6 @@ body {
     &__list-item {
         padding-left: 20px;
     }
-}
-
-.logo {
-    margin-right: 245px;
 }
 
 .arrow {
@@ -42,6 +39,7 @@ body {
 }
 
 .header__btn {
+    @extend %bold;
     &-come {
         border-bottom-style: solid;
         border-radius: 22px;
@@ -52,7 +50,7 @@ body {
         font-size: 12px;
         line-height: 15px;
         text-transform: uppercase;
-        padding: 7px 20px 7px 20px;
+        padding: 7px 18px 7px 20px;
     }
     &-register {
         margin-left: 20px;
@@ -64,7 +62,7 @@ body {
         font-size: 12px;
         line-height: 15px;
         text-transform: uppercase;
-        padding: 7px 20px 7px 20px;
+        padding: 9px 21px 9px 21px;
     }
 }
 

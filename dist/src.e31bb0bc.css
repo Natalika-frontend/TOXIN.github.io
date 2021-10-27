@@ -54,9 +54,6 @@ a {
 body {
   background-color: #ffffff;
   color: #1F2041BF;
-  font-size: 14px;
-  font-family: "Montserrat", sans-serif;
-  line-height: 17px;
 }
 
 .header__inner {
@@ -66,15 +63,15 @@ body {
   height: 70px;
 }
 
+.logo {
+  margin-right: 251px;
+}
+
 .menu__list {
   display: flex;
 }
 .menu__list-item {
   padding-left: 20px;
-}
-
-.logo {
-  margin-right: 245px;
 }
 
 .arrow {
@@ -100,7 +97,7 @@ body {
   font-size: 12px;
   line-height: 15px;
   text-transform: uppercase;
-  padding: 7px 20px 7px 20px;
+  padding: 7px 18px 7px 20px;
 }
 .header__btn-register {
   margin-left: 20px;
@@ -112,12 +109,19 @@ body {
   font-size: 12px;
   line-height: 15px;
   text-transform: uppercase;
-  padding: 7px 20px 7px 20px;
+  padding: 9px 21px 9px 21px;
 }
 
 html,
 body {
   height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
 }
 
 .wrapper {
@@ -138,6 +142,11 @@ body {
   max-width: 1160px;
   margin: 0 auto;
   padding: 0;
+}
+
+.header__btn {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
 }
 
 @font-face {
