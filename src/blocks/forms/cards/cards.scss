@@ -1,0 +1,127 @@
+::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.search-form {
+    position: absolute;
+    left: 140px;
+    top: 150px;
+    width: 380px;
+    height: 374px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+    padding: 40px 30px 30px 30px;
+}
+
+.search__title {
+    padding-bottom: 21px;
+}
+
+.search-inputs {
+    text-transform: uppercase;
+    &__coming {
+        position: relative;
+    }
+    &__departure {
+        position: relative;
+        top: -64px;
+        left: 170px;
+    }
+    &__guests {
+        position: relative;
+        top: -45px;
+    }
+}
+
+.search__coming {
+    position: absolute;
+    left: 115px;
+    top: 30px;
+    background: transparent;
+    border: none;
+}
+
+.search__departure {
+    position: absolute;
+    top: 29px;
+    left: 115px;
+    background: transparent;
+    border: none;
+}
+
+.search__guests {
+    position: absolute;
+    left: 292px;
+    top: 29px;
+    background: transparent;
+    border: none;
+}
+
+.search-form__coming {
+    width: 150px;
+    height: 44px;
+    margin-top: 5.44px;
+    border: 1px solid $darc_shade_25;
+    border-radius: 4px;
+}
+
+.search-form__departure {
+    width: 150px;
+    height: 44px;
+    margin-top: 5.44px;
+    border: 1px solid $darc_shade_25;
+    border-radius: 4px;
+}
+
+.search-form__guests {
+    width: 320px;
+    height: 44px;
+    margin-top: 5.44px;
+    border: 1px solid $darc_shade_25;
+    border-radius: 4px;
+}
+
+.search-form__btn {
+    position: relative;
+    top: -14px;
+    background-color: $purpl;
+    color: #fff;
+    text-transform: uppercase;
+    width: 320px;
+    height: 44px;
+    border: 1px solid $purpl;
+    border-radius: 22px;
+    font-size: 12px;
+    @extend %bold;
+}
+
+.material-icons {
+    position: absolute;
+    left: 286px;
+    top: 8px;
+    color: #fff;
+    background: transparent;
+}
+
+::-webkit-input-placeholder {
+    color: $darc_shade_75;
+}
+
+::-moz-placeholder {
+    color: $darc_shade_75;
+}
+
+
+/* Firefox 19+ */
+
+:-moz-placeholder {
+    color: $darc_shade_75;
+}
+
+
+/* Firefox 18- */
+
+:-ms-input-placeholder {
+    color: $darc_shade_75;
+}

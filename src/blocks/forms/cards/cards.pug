@@ -1,0 +1,19 @@
+.container
+  .search-form
+    .search__title
+      h1 Найдём номера под ваши пожелания
+    .search-inputs
+      .search-inputs__coming
+        h3 прибытие
+        input.search-form__coming(type="date" placeholder="дд.мм.гг")
+        span.material-icons-outlined.search__coming expand_more
+      .search-inputs__departure
+        h3 выезд
+        input.search-form__departure(type="date" placeholder="дд.мм.гг")
+        span.material-icons-outlined.search__departure expand_more
+      .search-inputs__guests
+        h3 гости
+        input.search-form__guests(type="text" placeholder="Сколько гостей")
+        span.material-icons-outlined.search__guests expand_more
+    button.search-form__btn подобрать номер
+      span.material-icons arrow_forward
