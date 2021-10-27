@@ -28,21 +28,21 @@ body {
 
 .arrow {
     border-top: 2px solid;
-    border-color: $darc_shade_25;
     display: inline-flex;
     width: 8px;
     height: 8px;
     margin-left: 10px;
     margin-right: 10px;
     border-left: 2px solid;
+    border-color: $darc_shade_50;
     transform: rotate( -135deg);
-    margin-bottom: 2.7px;
+    margin-bottom: 1.8px;
 }
 
 .header__btn {
     @extend %bold;
     &-come {
-        border-bottom-style: solid;
+        border-style: solid;
         border-radius: 22px;
         min-width: 87px;
         border-color: $purpl;
