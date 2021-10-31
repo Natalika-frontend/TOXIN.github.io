@@ -1,20 +1,20 @@
+.cards {
+    position: relative;
+    float: none;
+}
+
 ::-webkit-calendar-picker-indicator {
     opacity: 0;
 }
 
 .search-form {
-    position: absolute;
-    left: 140px;
-    top: 150px;
-    width: 380px;
-    height: 374px;
-    border: 1px solid rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
-    padding: 40px 30px 30px 30px;
+    position: relative;
+    @import './__border/__border';
+    left: 200px;
+    top: 30px;
 }
 
-.search__title {
+.search-form__title {
     padding-bottom: 21px;
 }
 
@@ -58,20 +58,15 @@
     border: none;
 }
 
-.search-form__coming {
-    width: 150px;
-    height: 44px;
-    margin-top: 5.44px;
-    border: 1px solid $darc_shade_25;
-    border-radius: 4px;
-}
-
-.search-form__departure {
-    width: 150px;
-    height: 44px;
-    margin-top: 5.44px;
-    border: 1px solid $darc_shade_25;
-    border-radius: 4px;
+.search-form {
+    &__departure {
+        width: 150px;
+        height: 44px;
+        margin-top: 5.44px;
+        border: 1px solid $darc_shade_25;
+        border-radius: 4px;
+    }
+    @import '../form_elements/__date-dropdown/_date-dropdown';
 }
 
 .search-form__guests {
@@ -102,6 +97,25 @@
     top: 8px;
     color: #fff;
     background: transparent;
+}
+
+.registration-form {
+    position: relative;
+    left: 200px;
+    top: 70px;
+    @import './__border/__border';
+    @import '../form_elements/__text-field/__text-field';
+}
+
+.registration-form {
+    &__inputs {
+        text-transform: uppercase;
+        @import '../form_elements/__selection-sex/_selection-sex';
+    }
+}
+
+.label__text {
+    text-transform: none;
 }
 
 ::-webkit-input-placeholder {

@@ -23,48 +23,60 @@ body {
     }
     &__list-link {
         color: $darc_shade_50;
+        &--drop-down {
+            position: relative;
+            padding-right: 20px;
+        }
+        &--actual {
+            @extend %bold;
+            color: $darc_shade_75;
+        }
     }
 }
 
-.arrow {
-    border-top: 2px solid;
-    display: inline-flex;
-    width: 8px;
-    height: 8px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-left: 2px solid;
-    border-color: $darc_shade_50;
-    transform: rotate( -135deg);
-    margin-bottom: 1.8px;
+.header__drop-down {
+    position: absolute;
+    background-color: transparent;
+    &-servises {
+        left: 50px;
+        top: -3px;
+        margin-right: 20px;
+    }
+    &-agreements {
+        left: 90px;
+        top: -2px;
+        margin-right: 20px;
+    }
 }
 
 .header__btn {
     @extend %bold;
-    &-come {
-        border-style: solid;
-        border-radius: 22px;
-        min-width: 87px;
-        border-color: $purpl;
-        color: $purpl;
-        background-color: #ffffff;
-        font-size: 12px;
-        line-height: 15px;
-        text-transform: uppercase;
-        padding: 7px 18px 7px 20px;
-    }
-    &-register {
-        margin-left: 20px;
-        min-width: 157px;
-        border: none;
-        border-radius: 22px;
-        color: #ffffff;
-        background-color: $purpl;
-        font-size: 12px;
-        line-height: 15px;
-        text-transform: uppercase;
-        padding: 9px 21px 9px 21px;
-    }
+}
+
+.header__btn-to-come-in {
+    border-style: solid;
+    border-radius: 22px;
+    min-width: 87px;
+    border-color: $purpl;
+    color: $purpl;
+    background-color: #ffffff;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    padding: 7px 18px 7px 20px;
+}
+
+.header__btn-register {
+    margin-left: 20px;
+    min-width: 157px;
+    border: none;
+    border-radius: 22px;
+    color: #ffffff;
+    background-color: $purpl;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    padding: 9px 21px 9px 21px;
 }
 
 //.control-btn:hover {
